@@ -22,7 +22,7 @@ Details can be found [SynthStrip](https://surfer.nmr.mgh.harvard.edu/docs/synths
 ### Registration to MNI-152 using FSL FLIRT function
 Details can be found [FSL](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FLIRT)
 
-One implementation can be found [here](https://github.com/vkola-lab/brain2020/tree/master/Data_Preprocess)
+One implementation can be found [here](https://github.com/vkola-lab/brain2020/tree/master/Data_Preprocess). After registration, the image dimension will be $182\times218\times182$ and the voxel dimension will be $1\times1\times1$ $mm^3$.
 
 
 
