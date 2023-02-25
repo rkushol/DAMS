@@ -6,10 +6,10 @@ Domain Adaptation of MRI Scanners as an alternative to MRI harmonization
 
 
 ## Requirements
-PyTorch
-nibabel 
-scipy
-scikit-image
+PyTorch  
+nibabel  
+scipy  
+scikit-image  
 
 
 ## Datasets
@@ -34,7 +34,7 @@ One implementation can be found [here](https://github.com/vkola-lab/brain2020/tr
 
 
 ## Training
-Run `python train.py` to train the network. It will generate `g_pre-train.pth` in `Results` folder
+Run `python train.py` to train the network. It will generate `dataset_source1_source2_to_target_max_accuracy.pth` in `Results` folder
 
 
 ## Testing
