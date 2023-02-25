@@ -5,6 +5,13 @@ Domain Adaptation of MRI Scanners as an alternative to MRI harmonization
 
 
 
+## Requirements
+PyTorch
+nibabel 
+scipy
+scikit-image
+
+
 ## Datasets
 ADNI1, ADNI2, and AIBL dataset can be downloaded from [ADNI](http://adni.loni.usc.edu/) (Alzheimer’s Disease Neuroimaging Initiative)
 
