@@ -38,7 +38,7 @@ Run `python train.py` to train the network. It will generate `dataset_source1_so
 
 
 ## Testing
-Run `python test.py`. It will generate the classification results based on the given test dataset
+Run `python test.py`. It will load the pre-trained model `dataset_source1_source2_to_target_max_accuracy.pth` and generate the classification results based on the given target dataset
 
 ## Contact
 Email at: kushol@ualberta.ca
