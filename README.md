@@ -45,3 +45,7 @@ Email at: kushol@ualberta.ca
 
 ## Acknowledgement
 This basic structure of the code relies on the project of [Deep Transfer Learning in PyTorch](https://github.com/easezyc/deep-transfer-learning/tree/master/MUDA/MFSAN)
+
+[Aligning Domain-specific Distribution and Classifier for Cross-domain Classification from Multiple Sources](https://dl.acm.org/doi/pdf/10.1609/aaai.v33i01.33015989)
+
+[Deep CORAL: Correlation Alignment for Deep Domain Adaptation](https://link.springer.com/chapter/10.1007/978-3-319-49409-8_35)
