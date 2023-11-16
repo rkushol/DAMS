@@ -1,7 +1,7 @@
 # DAMS
-Domain Adaptation of MRI Scanners as an alternative to MRI harmonization
+**Domain Adaptation of MRI Scanners as an alternative to MRI harmonization**
 
-The paper has been accepted for presentation at the 5th MICCAI Workshop on Domain Adaptation and Representation Transfer (DART).
+The paper has been accepted for presentation at the 5th MICCAI Workshop on Domain Adaptation and Representation Transfer (DART). [Paper link](https://link.springer.com/chapter/10.1007/978-3-031-45857-6_1)
 
 Download the slide of the presentation [DART_Rafsanjany_Kushol.pdf](https://github.com/rkushol/DAMS/files/12877285/DART_Rafsanjany_Kushol.pdf)
 
