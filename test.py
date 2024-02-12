@@ -17,14 +17,14 @@ print('Using device:', device)
 source1_name = "GE"
 source2_name = 'Philips'
 target_name = "Siemens"
-dataset = "ADNI2"
+dataset = "ADNI1"
 
-IMG_PATH = '../Longitudinal_ADNI2'
+IMG_PATH = './Dataset/ADNI1'
 results_dir = './Results'
 img_size = 224
 
 
-db_test = dataset3D(base_dir=IMG_PATH, list_dir='./Dataset', split="test_ADNI2_Siemens_MNI")
+db_test = dataset3D(base_dir=IMG_PATH, list_dir='./Dataset', split="test_ADNI1_Siemens_MNI")
 target_test_loader = DataLoader(db_test, batch_size=1, shuffle=False, num_workers=1)
 print("The length of target test set is: {}".format(len(db_test)))
 
