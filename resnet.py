@@ -1,4 +1,6 @@
 #Implementation taken from https://github.com/easezyc/deep-transfer-learning/blob/master/MUDA/MFSAN/MFSAN_2src/resnet.py
+#Zhu Y, Zhuang F, Wang D. Aligning domain-specific distribution and classifier for cross-domain classification from multiple sources[C]//Proceedings of the AAAI Conference on Artificial Intelligence. 2019, 33: 5989-5996.
+
 
 import torch.nn as nn
 import math
