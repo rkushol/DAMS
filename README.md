@@ -5,6 +5,7 @@ The paper has been accepted for presentation at the 5th MICCAI Workshop on Domai
 
 Download the slide of the presentation [DART_Rafsanjany_Kushol.pdf](https://github.com/rkushol/DAMS/files/12877285/DART_Rafsanjany_Kushol.pdf)
 
+```
 @inproceedings{kushol2023domain,
   title={Domain adaptation of MRI scanners as an alternative to MRI harmonization},
   author={Kushol, Rafsanjany and Frayne, Richard and Graham, Simon J and Wilman, Alan H and Kalra, Sanjay and Yang, Yee-Hong},
@@ -13,7 +14,7 @@ Download the slide of the presentation [DART_Rafsanjany_Kushol.pdf](https://gith
   year={2023},
   organization={Springer}
 }
-
+```
 
 ## Abstract
 Combining large multi-center datasets can enhance statistical power, particularly in the field of neurology, where data can be scarce. However, applying a deep learning model trained on existing neuroimaging data often leads to inconsistent results when tested on new data due to domain shift caused by differences between the training (source domain) and testing (target domain) data. Existing literature offers several solutions based on domain adaptation (DA) techniques, which ignore complex practical scenarios where heterogeneity may exist in the source or target domain. This study proposes a new perspective in solving the domain shift issue for MRI data by identifying and addressing the dominant factor causing heterogeneity in the dataset. We design an unsupervised DA method leveraging the maximum mean discrepancy and correlation alignment loss in order to align domain-invariant features. Instead of regarding the entire dataset as a source or target domain, the dataset is processed based on the dominant factor of data variations, which is the scanner manufacturer. Afterwards, the target domain's feature space is aligned pairwise with respect to each source domain's feature map. Experimental results demonstrate significant performance gain for multiple inter- and intra-study neurodegenerative disease classification tasks.
